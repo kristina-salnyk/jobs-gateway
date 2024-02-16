@@ -1,8 +1,8 @@
 'use client'
 
 import { ThemeProvider } from 'styled-components'
-import { theme } from '@md-styles/styled/theme'
-import { GlobalStyles } from '@md-styles/styled/global'
+import { theme } from '@md-styles/theme'
+import { GlobalStyles } from '@md-styles/global'
 
 export default function ClientThemeProvider({
   children,
