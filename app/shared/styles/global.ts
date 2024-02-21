@@ -90,4 +90,13 @@ export const GlobalStyles = createGlobalStyle`
         background-color: ${({ theme }) => theme.colors.primary};
         border-radius: 4px;
     }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
 `

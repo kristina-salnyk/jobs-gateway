@@ -45,6 +45,9 @@
       ],
       "@md-components/*": [
         "./app/shared/components/*"
+      ],
+      "@md-factories/*": [
+        "./app/shared/factories/*"
       ]
     }
   },

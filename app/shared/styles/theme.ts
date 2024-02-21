@@ -91,7 +91,6 @@ export const palette = {
   gray600: '#191e2d',
   gray658: '#d6dae2',
   gray800: '#231f20',
-
   gray1000: '#263238',
   // red
   red200: '#ffcfc7',
@@ -192,6 +191,36 @@ export const screenSizes = {
   DESKTOP_L: `(max-width: ${SIZE.DESKTOP_L})`,
 }
 
+export const fontSizes = {
+  0: '0.75rem',
+  1: '0.875rem',
+  2: '1rem',
+  3: '1.125rem',
+  4: '1.25rem',
+  5: '1.5rem',
+  6: '1.75rem',
+  7: '2rem',
+  8: '2.25rem',
+  9: '2.5rem',
+  10: '3rem',
+  11: '3.5rem',
+  12: '4rem',
+  13: '5rem',
+  14: '6rem',
+  15: '7rem',
+  16: '8rem',
+}
+
+export const transition = {
+  duration: '0.3s',
+  timingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
+}
+
+export const animation = {
+  duration: '2s',
+  timingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
+}
+
 export const colors = {
   ...palette,
   transparent: palette.transparent,
@@ -206,9 +235,11 @@ export const colors = {
 }
 
 export const assets = {
-  palette,
   templates,
   screenSizes,
+  fontSizes,
+  transition,
+  animation,
 }
 
 export const theme: DefaultTheme = {
