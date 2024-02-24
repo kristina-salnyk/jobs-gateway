@@ -1,6 +1,6 @@
 import React from 'react'
 import { createPortal } from 'react-dom'
-import createOverlay from '@md-shared/factories/Overlay'
+import createOverlay from '@md-shared/creators/Overlay'
 
 interface OverlayViewProps extends React.PropsWithChildren {
   map: google.maps.Map

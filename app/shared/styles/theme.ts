@@ -229,7 +229,7 @@ export const colors = {
   text: palette.white,
   textInverted: palette.white,
   textLight: palette.gray250,
-  border: palette.gray150,
+  border: palette.gray350,
   error: palette.red400,
   errorBackground: palette.red200,
 }

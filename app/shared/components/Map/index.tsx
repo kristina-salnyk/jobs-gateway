@@ -1,8 +1,8 @@
 'use client'
 
 import React from 'react'
-import Marker from '@md-components/marker'
 import Point from '@md-types/Point'
+import Marker from '@md-components/Marker'
 import { MAP_BOUNDARIES } from '@md-constants/index'
 
 const DEFAULT_POINT: Point = {

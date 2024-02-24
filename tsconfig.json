@@ -46,8 +46,14 @@
       "@md-components/*": [
         "./app/shared/components/*"
       ],
-      "@md-factories/*": [
-        "./app/shared/factories/*"
+      "@md-creators/*": [
+        "./app/shared/creators/*"
+      ],
+      "@md-icons/*": [
+        "./app/shared/icons/*"
+      ],
+      "@md-schemas/*": [
+        "./app/shared/schemas/*"
       ]
     }
   },

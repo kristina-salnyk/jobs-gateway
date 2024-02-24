@@ -1,7 +1,7 @@
 import React from 'react'
 import Point from '@md-types/Point'
-import OverlayView from '@md-components/overlay-view'
-import { MarkerIcon, MarkerWrapper } from '@md-components/marker/styled'
+import OverlayView from '@md-components/OverlayView'
+import { MarkerIcon, MarkerWrapper } from './styled'
 
 interface MarkerProps {
   map: google.maps.Map
