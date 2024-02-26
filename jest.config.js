@@ -1,10 +1,9 @@
 const nextJest = require('next/jest')
 
 const createJestConfig = nextJest({
-  // Provide the path to your Next.js app to load next.config.js and .env files in your test environment
+  // Provide the path to your Next.js app to load next.config.js and .env.local files in your test environment
   dir: './',
 })
-
 
 const config = {
   coverageProvider: 'v8',
@@ -19,6 +18,9 @@ const config = {
     '^@md-types/(.*)$': '<rootDir>/app/shared/types/$1',
     '^@md-store/(.*)$': '<rootDir>/app/store/$1',
     '^@md-components/(.*)$': '<rootDir>/app/shared/components/$1',
+    '^@md-creators/(.*)$': '<rootDir>/app/shared/creators/$1',
+    '^@md-icons/(.*)$': '<rootDir>/app/shared/icons/$1',
+    '^@md-schemas/(.*)$': '<rootDir>/app/shared/schemas/$1',
   },
   testPathIgnorePatterns: ['<rootDir>/.next/', '<rootDir>/node_modules/'],
 }

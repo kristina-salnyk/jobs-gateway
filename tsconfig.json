@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -18,16 +22,48 @@
       }
     ],
     "paths": {
-      "@md-app/*": ["./app/*"],
-      "@md-shared/*": ["./app/shared/*"],
-      "@md-styles/*": ["./app/shared/styles/*"],
-      "@md-utils": ["./app/shared/utils"],
-      "@md-constants/*": ["./app/shared/constants/*"],
-      "@md-types/*": ["./app/shared/types/*"],
-      "@md-store/*": ["./app/store/*"],
-
+      "@md-app/*": [
+        "./app/*"
+      ],
+      "@md-shared/*": [
+        "./app/shared/*"
+      ],
+      "@md-styles/*": [
+        "./app/shared/styles/*"
+      ],
+      "@md-utils": [
+        "./app/shared/utils"
+      ],
+      "@md-constants/*": [
+        "./app/shared/constants/*"
+      ],
+      "@md-types/*": [
+        "./app/shared/types/*"
+      ],
+      "@md-store/*": [
+        "./app/store/*"
+      ],
+      "@md-components/*": [
+        "./app/shared/components/*"
+      ],
+      "@md-creators/*": [
+        "./app/shared/creators/*"
+      ],
+      "@md-icons/*": [
+        "./app/shared/icons/*"
+      ],
+      "@md-schemas/*": [
+        "./app/shared/schemas/*"
+      ]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
